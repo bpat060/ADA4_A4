@@ -6,6 +6,7 @@ package A4;
  */
 import java.util.Set;
 
+//refernece: chapter 6 of ADA manual
 public interface GraphADT<E> {
     // enumeration of the types of graph
 
