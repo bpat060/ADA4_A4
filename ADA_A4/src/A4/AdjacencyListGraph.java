@@ -1,13 +1,5 @@
 package A4;
 
-/**
- * A class that implements a directed or an undirected graph using an adjacency
- * list as the underlying data structure, and whose vertices hold elements of
- * type E which should have a suitable hash function
- *
- * @author Andrew Ensor
- * @version 1.1 allows directed as well as undirected graphs
- */
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -15,6 +7,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
+//refernece: chapter 6 of ADA manual
 public class AdjacencyListGraph<E> implements GraphADT<E> {
 
     private GraphType type;

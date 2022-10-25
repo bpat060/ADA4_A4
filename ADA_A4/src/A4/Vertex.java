@@ -1,11 +1,5 @@
 package A4;
 
-/**
- * An interface that represents a vertex in a graph which holds elements of type
- * E in its vertices
- *
- * @see GraphADT.java
- */
 import java.util.Set;
 
 //refernece: chapter 6 of ADA manual

@@ -1,15 +1,5 @@
 package A4;
 
-/**
- * A class which contains Dijkstra's algorithm for solving the single-source
- * shortest path problem in a directed or undirected weighted graph that
- * implements GraphADT interface and whose vertices hold elements of generic
- * type E that has suitable hashing function (note all edges presumed to have
- * non-negative weight)
- *
- * @author Andrew Ensor
- */
-//refernece: chapter 6 of ADA manual
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -18,6 +8,7 @@ import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Set;
 
+//refernece: chapter 6 of ADA manual
 public class ShortestPathDijkstra<E> {
 
     private GraphADT<E> graph;

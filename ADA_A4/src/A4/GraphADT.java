@@ -1,9 +1,5 @@
 package A4;
 
-/**
- * An interface that defines the abstract data type for an undirected graph
- * whose vertices hold elements of type E
- */
 import java.util.Set;
 
 //refernece: chapter 6 of ADA manual
